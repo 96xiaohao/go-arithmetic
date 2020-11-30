@@ -1,0 +1,9 @@
+config/local.*
+.vscode
+dist/
+__debug_bin
+docs/docs.go
+docs/swagger.json
+docs/swagger.yaml
+.idea
+tmp/
