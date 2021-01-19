@@ -9,14 +9,14 @@ const (
 func Reversal(num int ) int  {
 	res :=0
 
-	for num >0 {
+	for num !=0 {
 		last_num := num % 10
 
 		if (res > MAX_INTEGER / 10) || ((res == MAX_INTEGER / 10) && last_num > 7) {
 			return 0
 		}
 
-		if (res < MIN_INTEGER / 10) || ((res == MIN_INTEGER/10) && last_num < -8) {
+		if (res < MIN_INTEGER / 10) || ((res == MIN_INTEGER / 10) && last_num < -8) {
 			return  0
 		}
 
